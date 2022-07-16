@@ -1,0 +1,561 @@
+html{
+    box-sizing: border-box;
+    font-size: 62.5%}/*1rem=10px*/
+
+*, *:before, *:after{
+    box-sizing: inherit;
+}
+body{
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.6rem;
+    line-height: 2;
+}
+
+/*----------------------Globales----------------------------*/
+h1 , h2, h3{
+    font-family: 'Raleway', sans-serif;
+    margin: 0 0 5rem 0;
+}
+h1{
+    font-size: 5rem;
+}
+h2{
+    font-size: 4rem;
+}
+h3{
+     font-size: 3rem;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+.contenedor{
+    max-width: 120rem;
+    margin: 0 auto;
+}
+img{
+    max-width: 100%;
+    display: block;
+}
+
+/*------------------------------------------------------------------------NAVEGACION-----------------------------------------------*/
+header nav .head{
+    text-decoration: none;
+    color: #000;
+    font-size:2rem;
+    font-weight: 600;
+}
+
+header nav .menu{
+    color: #787373;
+}
+header nav .icono{
+    color: #787373;
+}
+.navegacion.active{
+  color: #fff;
+}
+header .navegacion{
+ 
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem 2rem 0;
+    padding: 1.2rem 10rem;
+    
+}
+
+header .imagen-hero{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    height: 61.5rem;
+}
+
+ section .mi-trabajo{
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem 50rem;
+    margin-bottom: 6.2rem;
+}
+
+ .mi-trabajo a{
+    color: #000;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+/*-------------------------------------------------------------Menu--------------------------------------------------------------*/
+
+header nav .head2{
+    text-decoration: none;
+    color: #787373;
+    font-size:2rem;
+    font-weight: 600;
+}
+hr{
+    padding: 0;
+    margin: 0;
+    color: #787373;
+}
+.contenedor-line{
+    display: flex;
+    justify-content: center;
+}
+.vertical-line{
+    width: .1rem;
+    background: #787373;
+    height: 60rem;
+    padding: 0;
+    margin: 0;
+}
+section .mi-trabajo2{
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem 55rem;
+}
+.mi-trabajo2 a{
+    color: #787373;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+
+
+/*------------------------------------------------Diseñador y Desartrollador web-------------------------------------------------------*/ 
+.negro{
+    background: #000;
+    height: 100rem;
+    transition: 1s ease-in-out all;
+    opacity: 0;
+}
+.negro.visible{
+    opacity: 1;
+}
+/*//////////////////////////Contenedor////////////////////*/
+.contenedor{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+  
+}
+.dis h1{
+    font-size: 5rem;
+    color: #fff;
+    margin-top: 25rem;
+    margin-left:10rem; ;
+}
+.dis p{
+    font-size: 2.5rem;
+    color: #fff;
+    margin-left: 10rem;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+.img-dis{
+    width: 77.3rem;
+    height: 50.5rem;
+    margin-top: 12rem;
+    opacity: 0;
+    transform: scale(0.9);
+    transition: .8s ease-in-out all;
+}
+.img-dis.visible{
+    opacity: 1;
+    transform: scale(1);
+}
+
+
+/*//////////////////////////////////////////////Responsabilidad////////////////////////////////////////*/
+
+.responsabilidad{
+    background: #CB997E;
+    height: 100rem;
+}
+.res-contenedor{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding: 10rem;
+}
+.res-contenedor img{
+    width: 80rem;
+    height: 50.5rem;
+    margin-top: 18rem;
+    margin-right: 12rem;
+}
+
+.res h2{
+    color: #fff;
+    font-weight: 700;
+    font-size: 5rem;
+    margin-top: 20rem;
+    margin-left: 11rem;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+.res p{
+    color: #787373;
+    font-weight: 500;
+    font-size: 4.5rem;
+    margin-top: 0;
+    margin-left: 10rem;
+    margin-bottom: 0;
+    line-height: 7rem;
+}
+
+/****************************************************************************creatividad***************************************************************/
+
+.creatividad{
+    background: #6B705C;
+    height: 100rem;
+}
+.cre-contenedor{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.cre-contenedor img{
+    width: 60rem;
+    height: 65rem;
+    margin-top: 18rem;
+    margin-right: 12rem;
+}
+
+.cre h2{
+    color: #CB997E;
+    font-weight: 700;
+    font-size: 5rem;
+    margin-top: 20rem;
+    margin-left: 11rem;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+.cre p{
+    color: #fff;
+    font-weight: 500;
+    font-size: 4.5rem;
+    margin-top: 0;
+    margin-left: 10rem;
+    margin-bottom: 0;
+    line-height: 7rem;
+}
+/*-------------------------------------------------------------JORGE JOYA-------------------------------------------*/
+
+.jorge{
+    background: #F8EDEB;
+    height: 100rem;
+    padding: 5rem 20rem 0 20rem;
+}
+.jorge-contenedor{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-top: 5rem;
+}
+.jorge-contenedor img{
+    height: 55.5rem;
+    width: 42rem;
+    border-radius: .5rem;
+    margin-top: 3rem;
+}
+
+
+.jorge-contenedor h2{
+    color: #000;
+    font-size: 6rem;
+    font-weight: 300;
+    text-align: center;
+}
+.jorge-contenedor p{
+    color: #787373;
+    font-size: 4rem;
+    line-height: 1.3;
+    text-align: center;
+}
+.jorge-contenedor .parrafo{
+    height: 40rem;
+}
+.jorge-contenedor .p-negro{
+    color: #000;
+}
+
+/*-------------------------------------------------------skills---------------------------------------*/
+._parrafo1{
+    margin-top: 13rem;
+}
+.parrafo-principal h2{
+    color: #787373;
+    font-size: 3rem;
+    font-weight: 300;
+    padding: 2rem 10rem;
+    margin-top: 3rem;
+    line-height: 5rem;
+}
+
+.skills-fuertes{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+/*-------------------------------------------------------proyectos-------------------------------------------*/
+.correo{
+    color: #603E93;
+    font-size: 1.8rem;
+}
+.proyectos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FAFAFA;
+}
+.proyectos-grid{
+    list-style: none;
+    padding: 2rem;
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+
+}
+.proyectos-grid img{
+    height: 25rem;
+    width: 40rem;
+    object-fit:fill;
+    border-radius: 2rem;
+    opacity: .7;
+    
+    padding: 1rem;
+}
+.proyectos-grid img:hover{
+    opacity: 1;
+}
+
+.proyectos h2{
+    color: #603E93;
+    font-weight: 300;
+    margin: 5rem 0 1rem 0;
+}
+.proyectos p{
+    color: #434141;
+    font-weight: 300;
+    font-size: 2.1rem;
+    margin-top: 0;
+    line-height: 1;
+}
+div .boton-especial{
+    margin: 0 1rem 5rem 1rem;
+    background: none;
+    padding: 1rem;
+    color: #603E93;
+    border: 1px solid #603E93;
+    border-radius: .5rem;
+    display: flex;
+    justify-content: space-evenly;
+    width: 20rem;
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+div .boton-especial:hover{
+    color: #fff;
+    background-color: #6E5494;
+}
+.fab{
+ font-size: 2.8rem;
+}
+.centrar{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+/*------------------------Contacto-------------------------------*/
+.contenido-principal{
+    margin-bottom: 15rem;
+}
+section .pregunta{
+    text-align: center;
+    color: #6E5494;
+    font-size: 3rem;
+    margin-top: 10rem;
+}
+main .pregunta{
+    text-align: center;
+    color: #6E5494;
+    font-size: 3rem;
+}
+.formulario{
+    max-width: 53rem;
+    max-height: 38rem ;
+    margin: 0 auto;
+    display: flex; 
+    flex-direction: column;
+   column-gap: 2rem;
+
+}
+
+.campo{
+    margin: 1rem 0;
+    line-height: 3;
+    border-radius: .5rem; 
+    font-size: 1.8rem;
+}
+.campo .area{
+   resize: none;
+}
+.boton{
+    background: none;
+    padding: 2rem;
+    color: #6E5494;
+    border: 1px solid #6E5494;
+    border-radius: .5rem;
+    display: flex;
+    margin: 0 0rem 0 35rem ;
+    align-content: center;
+    justify-content: center;
+    font-size: 1.8rem;
+}
+.boton:hover{
+    background: #6E5494;
+    color: #fff;
+    cursor: pointer;
+  
+}
+
+
+/*            ----------------------------------------------------FOOTER--------------------------------            */
+footer{
+    height: 27rem;
+}
+.redes-sociales{
+    background: #000;
+    height: 100%;
+    padding-top: 7rem;
+}
+footer .redes-sociales a{
+    color: #fff;
+    text-align: center;
+    width: 10rem;
+    display: block;
+    padding: 1.5rem 0;
+    border-radius: .3rem;
+    font-size: 4rem;
+}  
+.contenedor-redes{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 22rem ;
+}
+.contenedor-redes .linkedin:hover{
+   background-color: #005485;
+}
+.contenedor-redes .facebook:hover{
+    background-color: #1877f2;
+ }
+ .contenedor-redes .facebook:hover{
+    background-color: #1877f2;
+ }
+ .contenedor-redes .gmail:hover{
+    background-color: #ea4335;
+ }
+ .contenedor-redes .github:hover{
+    background-color: #6e5494;
+ }
+ .contenedor-redes .instagram:hover{
+    background-color: #e1306c;
+ }
+
+footer .derechosReservados p{
+    color: #fff;
+    text-align: center;
+    margin-top: 3rem;
+}
+footer p .azulFooter{
+    color: #6E5494;
+}
+
+
+
+/*----------------------------------------------- Mediaaaa Queries------------------------------------- */
+
+@media (max-width: 380px) {
+
+    header{
+        height: 60rem;
+    }
+    header nav .head{
+       font-size: 1.6rem;
+    }
+    header .navegacion{
+       font-size: 1.6rem;
+       padding: 1.2rem 4rem;
+
+    }
+    header .imagen-hero{
+        display: flex;
+        justify-content: center;
+        align-items:center;
+        height: 40rem;
+    }
+    section .mi-trabajo{
+        display: flex;
+        justify-content: space-around;
+        padding: 0rem 5rem 2rem 5rem;
+        margin-bottom: 6.2rem;
+    }
+    
+    .mi-trabajo a{
+        color: #000;
+        font-size: 1.6rem;
+        font-weight: 600;
+    }
+    /*-------------------------------Diseñador------------------------------*/
+    .negro{
+        height: 75rem;
+    }
+    .contenedor{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        
+    }
+    .dis h1{
+        font-size: 2.5rem;
+        margin-top: 9rem;
+    }
+    .dis p{
+        font-size: 2rem;
+    }
+    .img-dis{
+        width: 25rem;
+        height: 25rem;
+        margin: 0 auto;
+    }
+    /*--------------------------------------------------Jorge-----------------------*/
+    .jorge{
+        height: 75rem;
+        padding: 0rem 2rem;
+    }
+    .jorge-contenedor{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        align-items: center;
+        margin-top: 0rem;
+    }
+    .jorge-contenedor img{
+        height: 30rem;
+        width: 25rem;
+        border-radius: .5rem;
+        margin: 3rem 0rem 2rem 4rem;
+        padding-top: 5rem;
+    }
+    .jorge-contenedor h2{
+        font-size: 2rem;
+        font-weight: 300;
+        margin-bottom: 2rem;
+    }
+    .jorge-contenedor p{
+        font-size: 2rem;
+        line-height: 1.5;
+        text-align: justify;
+    }
+    
+}
